@@ -19,7 +19,7 @@
       <script src="Scripts/app.js"></script>
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-       <a class="navbar-brand" href="/">COMP308</a>
+       <a class="navbar-brand"  href="/"> <img src="/public/Assets/images/Capture.PNG"> My Portfolio</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
@@ -40,15 +40,15 @@
          <li class="nav-item">
          <% } %>
            
-             <a class="nav-link" href="/aboutme"><i class="fa fa-lg fa-info"></i> About me</a>
+             <a class="nav-link" href="/about"><i class="fa fa-lg fa-info"></i>About Me</a>
            </li>
-           <% if (title == "Products"){ %>
+           <% if (title == "Project"){ %>
            <li class="nav-item active">
          <% } else { %>
          <li class="nav-item">
          <% } %>
            
-               <a class="nav-link" href="/project"><i class="fa fa-lg fa-briefcase"></i> Project</a>
+               <a class="nav-link" href="/project"><i class="fa fa-lg fa-briefcase"></i>Project</a>
              </li>
              <% if (title == "Services"){ %>
              <li class="nav-item active">
